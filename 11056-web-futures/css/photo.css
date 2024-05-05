@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.box{
+	width: 1480px;
+	height: 960px;
+}
+.top{
+	width: 100%;
+	height: 100px;
+}
+.top ul{
+	width: 900px;
+	height: 60px;
+	position: relative;
+	left: 340px;
+	top: 30px;
+}
+.top ul li{
+	width: 180px;
+	height: 60px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	cursor: pointer;
+	color:#C1C1C1
+}
+.top ul li:hover{
+	border-bottom: 3px solid #000000
+}
+
+.content{
+	width: 1480px;
+	height: 860px;
+	position: relative;
+}
+.content .gaibian{
+	width: 1000px;
+	height: 760px;
+	background: #9F6667;
+	margin: 40px auto;
+}
+.prea{
+	width: 40px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	left: -45px;
+	top: -400px;
+	cursor: pointer;
+}
+.next{
+	width: 40px;
+	height: 50px;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	left: 960px;
+	top: -400px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

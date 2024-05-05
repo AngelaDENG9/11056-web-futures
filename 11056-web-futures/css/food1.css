@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.box{
+	width: 1480px;
+	height: 1400px;
+}
+.top{
+	width: 100%;
+	height: 100px;
+}
+.top ul{
+	width: 900px;
+	height: 60px;
+	position: relative;
+	left: 340px;
+	top: 30px;
+}
+.top ul li{
+	width: 180px;
+	height: 60px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	cursor: pointer;
+	color: black
+}
+.top ul li:hover{
+	border-bottom: 3px solid #000000
+}
+
+.content{
+	width: 1480px;
+	height: 860px;
+	position: relative;
+}
+.top-left{
+	width: 400px;
+	height: 300px;
+	background: #A0A0A0;
+	position: absolute;
+	top: 80px;
+	left: 100px;
+}
+.top-mid{
+	width: 400px;
+	height: 300px;
+	background: #A0A0A0;
+	position: absolute;
+	top: 80px;
+	left: 540px;
+}
+.top-right{
+	width: 400px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top: 80px;
+	left: 980px;
+}
+.bottom-left{
+	width: 400px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top:500px;
+	left: 300px;
+}
+
+.bottom-right{
+	width: 400px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top: 500px;
+	left: 740px;
+}
+.list-left{
+	width: 400px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top:900px;
+	left: 740px;
+}
+
+.list-right{
+	width: 400px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top:900px;
+	left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

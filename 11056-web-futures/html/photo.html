@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>photos</title>
+	<link rel="stylesheet" href="../css/photo.css">
+</head>
+
+<body>
+	<div class="box">
+		<div class="top">
+			
+			<ul>
+				<a href="destination1.html"><li>Destination</li></a>
+				<a href="food1.html"><li>Food</li></a>
+				<a href="hotel1.html"><li>Hotels</li></a>
+				<a href="photo.html"><li>photo</li></a>
+				<a href="about iceland.html" ><li>About Iceland</li></a>
+			</ul>
+			
+			<p style="position: relative;left: 1400px;top: -10px;font-size: 18px;color: white;cursor: pointer;width: 50px;">English</p>
+		</div>
+		<div class="content">
+			<p style="width: 1480px;text-align: center;font-size: 20px;position: relative;top: 10px;">photos</p>
+			<div class="gaibian">
+				<img src="../image/1.png" alt="" id="img">
+				<button class="next" id="next">&nbsp;》</button>
+				<button class="prea" id="pre">《&nbsp;&nbsp;</button>
+			</div>
+			<p align="center">Iceland Picture Appreciation</p>
+		</div>
+	</div>
+	<script>
+		var image= document.getElementById("img");
+		var next = document.getElementById("next");
+		var pre = document.getElementById("pre");
+		var nowimageindex = 1;
+		var count = 4;
+		
+		next.onclick =function(){
+			if(nowimageindex + 1 >count){
+				nowimageindex = 1;
+			}else{
+				nowimageindex ++;
+			}
+			img.src="../image/"+nowimageindex+".png";
+		}
+		pre.onclick =function(){
+			if(nowimageindex - 1 <= 0){
+				nowimageindex = count;
+			}else{
+				nowimageindex --;
+			}
+			img.src="../image/"+nowimageindex+".png";
+		}
+		
+	</script>
+</body>
+</html>

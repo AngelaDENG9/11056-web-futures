@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+.box{
+	width: 1480px;
+	height: 960px;
+}
+.top{
+	width: 100%;
+	height: 100px;
+}
+.top ul{
+	width: 900px;
+	height: 60px;
+	position: relative;
+	left: 340px;
+	top: 30px;
+}
+.top ul li{
+	width: 180px;
+	height: 60px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	cursor: pointer;
+	color: black
+}
+.top ul li:hover{
+	border-bottom: 3px solid #000000
+}
+
+.content{
+	width: 1480px;
+	height: 860px;
+	position: relative;
+}
+.top-left{
+	width: 900px;
+	height: 400px;
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	
+}
+.top-right{
+	width: 500px;
+	height: 400px;
+	background: #B3A4A5;
+	position: absolute;
+	top: 80px;
+	left: 960px;
+}
+.bottom-left{
+	width: 466px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top: 520px;
+	left: 20px;
+}
+.bottom-mid{
+	width: 466px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top: 520px;
+	left: 505px;
+}
+.bottom-right{
+	width: 466px;
+	height: 300px;
+	background: #B3A4A5;
+	position: absolute;
+	top: 520px;
+	left: 995px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
